@@ -23,9 +23,9 @@ app.use(session(
     }
 ));
 
-app.use(indexRoute);
-app.use('/user',userRoute);
-app.use('/admin',adminRoute);
+// app.use(indexRoute);
+// app.use('/user',userRoute);
+// app.use('/admin',adminRoute);
 
 app.listen(3000,()=>{
     console.log("---------Server Started----------");
